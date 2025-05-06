@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#infocontainer {
+    display: flex;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+    float: left;
+    /* Floating the user card */
+}
+
+.user-card img {
+    border-radius: 50%;
+}
+
+/* Additional styles for the map */
+#map {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}

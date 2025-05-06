@@ -9,5 +9,15 @@ To gain experience using objects, please complete the following:
 
 */
 
-
-
+// Fetching advice
+fetch('https://api.adviceslip.com/advice')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    
+    // Fetching a random dog image after getting advice
+    return fetch('https://dog.ceo/api/breeds/image/random');
+  })
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error fetching data:', error));
