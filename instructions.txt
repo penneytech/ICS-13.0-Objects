@@ -1,17 +1,15 @@
-/* 
-
 You will fetch an object from an API url. The URL is:
 URL for the API Call for 13.0 Objects: https://randomuser.me/api/
 
 Follow these instructions: 
 
 1) Ask Gemini to fetch and console log the API data from https://randomuser.me/api/ using javascript.
-Copy / paste that code below these instructions 
+Copy / paste that code into script.js
 
-2) Go to the console in your browser (Go live > Right Click > Inspect > Console) and 
-inspect the object. Click the down arrows in the object to explore it's contents
+2) Go to the console in your browser (Go live in VScode > Right Click webpage > Inspect > Console) and 
+inspect the object. Click the down arrows in the object to explore it's contents.
 
-3) Right click on the console logged object and copy it 
+3) Right click on the console logged object and copy it.
 
 4) Paste that into your Gemini conversation and tell it that this is the API output.
 In the same message, ask it to create an interface that displays the data from the API object.
@@ -19,8 +17,6 @@ In the same message, ask it to create an interface that displays the data from t
 5) Copy / Paste the resultant HTML / JS and CSS into this project to see the result!
 
 You should end up with an app that displays the data from the object. 
-
-*/
 
 
 
